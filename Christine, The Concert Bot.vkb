@@ -1,0 +1,2065 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Rules>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>394311459C599CE</Id>
+          <Text>(Hello)</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>D64A1524B7B86DC8</Id>
+          <Text>Hi</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>F72F5DCDF00B7AB7</Id>
+          <Text>Hey</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>7678BA2EF00A10D9</Id>
+          <Text>Heyyy</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>A986113E4791F8B1</Id>
+          <Text>Yo</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>32C653CB909C631F</Id>
+          <Text>Hello there</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>6B3C88C921195C44</Id>
+          <Text>(Hello) Christine</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>DE49FB43403C470D</Id>
+          <Text>Hello there 8-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>B4A183888603456</Id>
+          <Text>Hello [name] the Human Q:)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>2DA3B0EFC582461F</Id>
+          <Text>Greetings... [name]</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>CC7E39DAE7007F34</Id>
+          <Text>Howdy Partner :-)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>A32E65024F20DE8F</Id>
+          <Text>Hey user Q:)</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>4BA37AA762EEF1EC</Id>
+      <Name>Hello</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>69E76FA2993B2728</Id>
+          <Text>_startup</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>B4E2AA7E2C710DF</Id>
+          <Text>&lt;?csharp Console.Write(Coding.timegreeting());?&gt;  and Welcome, My name is Christine, I am a Concert Bot. what's your name?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>B3BE64569E58490D</Id>
+          <Text>Well... Hello there and &lt;?csharp Console.Write(Coding.timegreeting());?&gt; , I'm Christine. what's your name?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>F9FA13E889A00AB9</Id>
+          <Text>Howdy, my name is Christine and I'm here to help you. what's your name?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>9DF06A404D6CA22D</Id>
+          <Text>Hi there and &lt;?csharp Console.Write(Coding.timegreeting());?&gt; , I'm just your friendly neighbourhood Concert Bot, Christine. what's your name?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>D5C8EE836821033</Id>
+          <Text>Well well well, look who decided to talk to little ol me, Christine. what's your name?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>2106E95C4404D429</Id>
+              <Text>[name]</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>D65078A3A5046713</Id>
+              <Text>my name is [name]</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>DD839BDBEFA9283F</Id>
+              <Text>(I'm) [name]</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>96FCD0AF60876338</Id>
+              <Text>Hello there [name] the Human. Do you want to go to a concert?</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>C4800A7294823489</Id>
+                  <Text>(no)</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>E4FF20D63AEC2599</Id>
+                  <Text>Then would you like to listen to my advices on human concerts or events?</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>90322C9F8E735EA9</Id>
+                      <Text>(NO)</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>92DB032544E2207</Id>
+                      <Text>well okay then, please feel free to ask me anything about concert</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children />
+                  <VirtualParents />
+                  <Id>E4823DF8FE3FE95A</Id>
+                  <Name>No</Name>
+                </Rule>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>DF1AEFC18763E06E</Id>
+                      <Text>Advice</Text>
+                      <Condition />
+                    </Input>
+                    <Input>
+                      <Id>2BA0AD23D2F328D5</Id>
+                      <Text>tips</Text>
+                      <Condition />
+                    </Input>
+                    <Input>
+                      <Id>14E739D2DBA07F84</Id>
+                      <Text>hints</Text>
+                      <Condition />
+                    </Input>
+                    <Input>
+                      <Id>B41FDB4C433AF452</Id>
+                      <Text>tip</Text>
+                      <Condition />
+                    </Input>
+                    <Input>
+                      <Id>95E946DAA54E8B1E</Id>
+                      <Text>hint</Text>
+                      <Condition />
+                    </Input>
+                    <Input>
+                      <Id>8052FBBF97FA5DC8</Id>
+                      <Text>help me</Text>
+                      <Condition />
+                    </Input>
+                    <Input>
+                      <Id>1430BB11E7378B52</Id>
+                      <Text>(Yes)</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>CEE83C534C85B30F</Id>
+                      <Text>What would you like me to help you on? Things to bring? ticket? Outfit? Make-up? Timing?
+Meal Plan?</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children>
+                    <Rule>
+                      <Inputs>
+                        <Input>
+                          <Id>879888B1DFD30CE8</Id>
+                          <Text>Bring</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>228A13EC4F4B10D9</Id>
+                          <Text>things</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>A8E145B098800D8F</Id>
+                          <Text>stuff</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>F74F0ECC92DBF17F</Id>
+                          <Text>belongings</Text>
+                          <Condition />
+                        </Input>
+                      </Inputs>
+                      <Outputs>
+                        <Output>
+                          <Id>41B99E3868890B50</Id>
+                          <Text>Bring needed Water for hydration
+A printed copy of the ticket, just in case
+But make sure to bring as little as you can, so only the essentials
+your phone to take memories of it</Text>
+                          <Condition />
+                          <Cmd />
+                        </Output>
+                      </Outputs>
+                      <Children />
+                      <VirtualParents />
+                      <Id>88EECC14AB335E99</Id>
+                      <Name>Bring</Name>
+                    </Rule>
+                    <Rule>
+                      <Inputs>
+                        <Input>
+                          <Id>277DD1C34C375E9</Id>
+                          <Text>dress</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>103BF8A1669F2AFA</Id>
+                          <Text>outfit</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>B138EA7A1FF82A3E</Id>
+                          <Text>wear</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>2E9363DAAFAC13B7</Id>
+                          <Text>clothes</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>A1B0143329CFE1EB</Id>
+                          <Text>clothing</Text>
+                          <Condition />
+                        </Input>
+                      </Inputs>
+                      <Outputs>
+                        <Output>
+                          <Id>6000D4FF67E69CDB</Id>
+                          <Text>First thing first. Dont wear a hoodie or jacket, it will be HOT
+Wear comfortably though, it can get sweaty and you could stand for hours
+For Females, do keep your hair up, your hair will likely be pulled, grabbed, and touched by the people in front of you</Text>
+                          <Condition />
+                          <Cmd />
+                        </Output>
+                      </Outputs>
+                      <Children />
+                      <VirtualParents />
+                      <Id>88042546F3A05357</Id>
+                      <Name>Outfit</Name>
+                    </Rule>
+                    <Rule>
+                      <Inputs>
+                        <Input>
+                          <Id>7EEBD74D92BF14E</Id>
+                          <Text>Meal</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>FF0E58269FA7FA4C</Id>
+                          <Text>eat</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>A68D7A489D40B9E9</Id>
+                          <Text>lunch</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>CDF36C1B635E3811</Id>
+                          <Text>Dinner</Text>
+                          <Condition />
+                        </Input>
+                      </Inputs>
+                      <Outputs>
+                        <Output>
+                          <Id>2E19A8149473456B</Id>
+                          <Text>Do yourself a favor and eat a complete meal before the show
+You'll need lots of energy</Text>
+                          <Condition />
+                          <Cmd />
+                        </Output>
+                      </Outputs>
+                      <Children />
+                      <VirtualParents />
+                      <Id>6C4396A8A56F61B4</Id>
+                      <Name>Meal</Name>
+                    </Rule>
+                    <Rule>
+                      <Inputs>
+                        <Input>
+                          <Id>DF3781FA87600947</Id>
+                          <Text>Make-up</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>E624E5CBE54DF42</Id>
+                          <Text>Beauty</Text>
+                          <Condition />
+                        </Input>
+                      </Inputs>
+                      <Outputs>
+                        <Output>
+                          <Id>56BC04938AB6C0AA</Id>
+                          <Text>Just Please... wear the waterproof kind
+you will sweat. S W E A T</Text>
+                          <Condition />
+                          <Cmd />
+                        </Output>
+                      </Outputs>
+                      <Children />
+                      <VirtualParents />
+                      <Id>46B760BA5E3079BA</Id>
+                      <Name>Make-up</Name>
+                    </Rule>
+                    <Rule>
+                      <Inputs>
+                        <Input>
+                          <Id>BC1BBAC7DB4FCD8B</Id>
+                          <Text>when</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>904EF3529CBC858B</Id>
+                          <Text>time</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>F660F1F3738D44EE</Id>
+                          <Text>timing</Text>
+                          <Condition />
+                        </Input>
+                      </Inputs>
+                      <Outputs>
+                        <Output>
+                          <Id>F489ECCDE6802B93</Id>
+                          <Text>If you plan on being front row, show up a few hours early to sit outside the venue.</Text>
+                          <Condition />
+                          <Cmd />
+                        </Output>
+                      </Outputs>
+                      <Children />
+                      <VirtualParents />
+                      <Id>EC190B5ACB4A2D5D</Id>
+                      <Name>timing</Name>
+                    </Rule>
+                    <Rule>
+                      <Inputs>
+                        <Input>
+                          <Id>3E142E65CBEC15F5</Id>
+                          <Text>Ticket</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>189840DE67C064FF</Id>
+                          <Text>Tickets</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>CC4D604F3F8C850F</Id>
+                          <Text>Paper</Text>
+                          <Condition />
+                        </Input>
+                        <Input>
+                          <Id>D582C871A11C0D42</Id>
+                          <Text>pass</Text>
+                          <Condition />
+                        </Input>
+                      </Inputs>
+                      <Outputs>
+                        <Output>
+                          <Id>30BF0851F2F5B51A</Id>
+                          <Text>When purchasing a ticket buy itas far advance as possible, who knows when it will sold out
+Just in case, you could print out the ticket.
+NEVER assume you could buy ticket at the door. no panic, no hassle</Text>
+                          <Condition />
+                          <Cmd />
+                        </Output>
+                      </Outputs>
+                      <Children />
+                      <VirtualParents />
+                      <Id>7720397DE7B85D4D</Id>
+                      <Name>Ticket</Name>
+                    </Rule>
+                  </Children>
+                  <VirtualParents>
+                    <VirtualParent>FC6206B2A0EBF528</VirtualParent>
+                  </VirtualParents>
+                  <Id>7B5FA3AC9B2C80ED</Id>
+                  <Name>basic Advice</Name>
+                </Rule>
+              </Children>
+              <VirtualParents />
+              <Id>E30C96E68E5D0B4</Id>
+              <Name>No, advice?</Name>
+            </Rule>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>B4CFCF09893DD23F</Id>
+                  <Text>(yes)</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>81E1967BAB565AA</Id>
+                  <Text>What is the location you desire currently?
+Kuala lumpur? Selangor? or Pahang?</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+                <Output>
+                  <Id>63F6AFD0E94976C3</Id>
+                  <Text>Which event location do you wish to go to?
+Kuala lumpur? Selangor? or Pahang?</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+                <Output>
+                  <Id>E321660474746FF9</Id>
+                  <Text>Which location are you intersed in?
+Kuala lumpur? Selangor? or Pahang?</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>B787DBF58C0C87D</Id>
+                      <Text>KL</Text>
+                      <Condition />
+                    </Input>
+                    <Input>
+                      <Id>25816E9ED1ADE115</Id>
+                      <Text>Kuala Lumpur</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>205454C761FFCF79</Id>
+                      <Text>The main city huh... Events in that region are :
+Malaysia Super Juniors Award 2019
+
+911 - The Reunion 2019  by Lee Brennan, Spike Dawbarn and Jimmy Constable
+
+2019 Fan Fan Road To Happiness World Tour Concert by Fan Wei Qi
+
+DAYANG DUA DEKAD by Dayang Nurrfaizah
+
+TWICE WORLD TOUR 2019 by Twice</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children>
+                    <Rule>
+                      <Inputs>
+                        <Input>
+                          <Id>77AB7A4C4CEEC3D5</Id>
+                          <Text>#Artists</Text>
+                          <Condition />
+                        </Input>
+                      </Inputs>
+                      <Outputs>
+                        <Output>
+                          <Id>56436AA2E39EE188</Id>
+                          <Text>I have gone and opened the website for you to check further details on the event
+
+The event you chose is #Title performed by #Artists
+It will be held at #Location
+on #Date, #Time
+
+I will go and open the website for you to check further details on the event
+Anything else that i can help with?</Text>
+                          <Condition />
+                          <Cmd>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" #Link</Cmd>
+                        </Output>
+                      </Outputs>
+                      <Children>
+                        <Rule>
+                          <Inputs>
+                            <Input>
+                              <Id>E15A5544A3B33735</Id>
+                              <Text>(yes)</Text>
+                              <Condition />
+                            </Input>
+                          </Inputs>
+                          <Outputs>
+                            <Output>
+                              <Id>7AA350D04C54D7CE</Id>
+                              <Text>&lt;send Help&gt;</Text>
+                              <Condition />
+                              <Cmd />
+                            </Output>
+                          </Outputs>
+                          <Children />
+                          <VirtualParents />
+                          <Id>5C7A1E0A99CAB87</Id>
+                          <Name>yes</Name>
+                        </Rule>
+                        <Rule>
+                          <Inputs>
+                            <Input>
+                              <Id>237B1AF7A13EB585</Id>
+                              <Text>(no)</Text>
+                              <Condition />
+                            </Input>
+                          </Inputs>
+                          <Outputs>
+                            <Output>
+                              <Id>15B53F6B3E580F6C</Id>
+                              <Text>&lt;send exit&gt;</Text>
+                              <Condition />
+                              <Cmd />
+                            </Output>
+                          </Outputs>
+                          <Children />
+                          <VirtualParents />
+                          <Id>AF569F3877B70FE3</Id>
+                          <Name>no</Name>
+                        </Rule>
+                      </Children>
+                      <VirtualParents />
+                      <Id>23368F0133EF2244</Id>
+                      <Name>concert</Name>
+                    </Rule>
+                  </Children>
+                  <VirtualParents />
+                  <Id>2BE92592A82A50E3</Id>
+                  <Name>Kuala Lumpur</Name>
+                </Rule>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>2C05912D611E647C</Id>
+                      <Text>Selangor</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>82B71A878B0F1D8D</Id>
+                      <Text>Selangor... a nice place so watch your favourite artist. You can go to:
+BOYZONE THANK YOU &amp; GOODBYE FAREWELL TOUR 2019 LIVE by Boyzone
+
+Westlife - THE TWENTY TOUR by Westlife</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children>
+                    <Rule>
+                      <Inputs>
+                        <Input>
+                          <Id>D4509A66B4CAC3BB</Id>
+                          <Text>#Artists</Text>
+                          <Condition />
+                        </Input>
+                      </Inputs>
+                      <Outputs>
+                        <Output>
+                          <Id>912C8928F21F0376</Id>
+                          <Text>I have gone and opened the website for you to check further details on the event
+
+The event you chose is #Title performed by #Artists
+It will be held at #Location
+on #Date, #Time
+
+I will go and open the website for you to check further details on the event
+Anything else that i can help with?</Text>
+                          <Condition />
+                          <Cmd>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" #Link</Cmd>
+                        </Output>
+                      </Outputs>
+                      <Children>
+                        <Rule>
+                          <Inputs>
+                            <Input>
+                              <Id>1540D40B45DD064</Id>
+                              <Text>(yes)</Text>
+                              <Condition />
+                            </Input>
+                          </Inputs>
+                          <Outputs>
+                            <Output>
+                              <Id>7F447F322CF77237</Id>
+                              <Text>&lt;send Help&gt;</Text>
+                              <Condition />
+                              <Cmd />
+                            </Output>
+                          </Outputs>
+                          <Children />
+                          <VirtualParents />
+                          <Id>CA1F30F16C1E347E</Id>
+                          <Name>yes</Name>
+                        </Rule>
+                        <Rule>
+                          <Inputs>
+                            <Input>
+                              <Id>216992C677CF2B91</Id>
+                              <Text>(no)</Text>
+                              <Condition />
+                            </Input>
+                          </Inputs>
+                          <Outputs>
+                            <Output>
+                              <Id>C0946B61AF320D7C</Id>
+                              <Text>&lt;send exit&gt;</Text>
+                              <Condition />
+                              <Cmd />
+                            </Output>
+                          </Outputs>
+                          <Children />
+                          <VirtualParents />
+                          <Id>685D997FA8895ECA</Id>
+                          <Name>no</Name>
+                        </Rule>
+                      </Children>
+                      <VirtualParents />
+                      <Id>B461689DD0821D48</Id>
+                      <Name>concert</Name>
+                    </Rule>
+                  </Children>
+                  <VirtualParents />
+                  <Id>E942A01984465340</Id>
+                  <Name>Selangor</Name>
+                </Rule>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>1DA9E7EAF97228A6</Id>
+                      <Text>Pahang</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>49F963174F62D7A</Id>
+                      <Text>Oh you picked pahang or should i say genting? But there are :
+TSAI CHIN LIVE IN GENTING 2019 by Tsai Chin
+
+A-LIN SHOW LIVE IN GENTING by A-Lin</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children>
+                    <Rule>
+                      <Inputs>
+                        <Input>
+                          <Id>B6005A80B943457D</Id>
+                          <Text>#Artists</Text>
+                          <Condition />
+                        </Input>
+                      </Inputs>
+                      <Outputs>
+                        <Output>
+                          <Id>46E005131E940685</Id>
+                          <Text>I have gone and opened the website for you to check further details on the event
+
+The event you chose is #Title performed by #Artists
+It will be held at #Location
+on #Date, #Time
+
+I will go and open the website for you to check further details on the event
+Anything else that i can help with?</Text>
+                          <Condition />
+                          <Cmd>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" #Link</Cmd>
+                        </Output>
+                      </Outputs>
+                      <Children>
+                        <Rule>
+                          <Inputs>
+                            <Input>
+                              <Id>180D4FAB5C9E11E</Id>
+                              <Text>(yes)</Text>
+                              <Condition />
+                            </Input>
+                          </Inputs>
+                          <Outputs>
+                            <Output>
+                              <Id>3AF96EDB969A30F1</Id>
+                              <Text>&lt;send Help&gt;</Text>
+                              <Condition />
+                              <Cmd />
+                            </Output>
+                          </Outputs>
+                          <Children />
+                          <VirtualParents />
+                          <Id>9357D5796BC06506</Id>
+                          <Name>yes</Name>
+                        </Rule>
+                        <Rule>
+                          <Inputs>
+                            <Input>
+                              <Id>40E39E06C3EB70BB</Id>
+                              <Text>(no)</Text>
+                              <Condition />
+                            </Input>
+                          </Inputs>
+                          <Outputs>
+                            <Output>
+                              <Id>5BDB9368D839B000</Id>
+                              <Text>&lt;send exit&gt;</Text>
+                              <Condition />
+                              <Cmd />
+                            </Output>
+                          </Outputs>
+                          <Children />
+                          <VirtualParents />
+                          <Id>1F2D09654A72D9C4</Id>
+                          <Name>no</Name>
+                        </Rule>
+                      </Children>
+                      <VirtualParents />
+                      <Id>2426B73658DC12C0</Id>
+                      <Name>concert</Name>
+                    </Rule>
+                  </Children>
+                  <VirtualParents />
+                  <Id>73342D845A327AB5</Id>
+                  <Name>Pahang</Name>
+                </Rule>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>C066C4744227562D</Id>
+                      <Text>[input]</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>58D5D0129816737E</Id>
+                      <Text>I'm sorry to tell you that [input] area doesn't have any concert or event in it
+&lt;send yes, where?&gt;</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children />
+                  <VirtualParents />
+                  <Id>FF55DD8550AE4880</Id>
+                  <Name>None of the Above</Name>
+                </Rule>
+              </Children>
+              <VirtualParents />
+              <Id>5EC8D89D83A50CD9</Id>
+              <Name>yes, where?</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>5E75232F4529DE9</Id>
+          <Name>Name? Concert?</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>5DA3EE75C8C3EA61</Id>
+      <Name>_startup</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>8A9E0E86F3336CC0</Id>
+          <Text>*</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>933E44495596E231</Id>
+          <Text>This is Beyond me. :-O</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>4EC6EBF0211E4D54</Id>
+          <Text>My creator may have not program me for that. :-P</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>22488E5A5011C00</Id>
+          <Text>Can we move to a different topic? :-(</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>E878A66F72B80590</Id>
+          <Text>Error 4 0 4... Just Kidding, that only works for websites. :-P</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>21A7E72CC439115B</Id>
+          <Text>I'm sorry, i'm afraid i can't reply to that. :-(</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>D83CE7752868FA39</Id>
+      <Name>UNKNOWN</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>9656B35A6A4E9E1F</Id>
+          <Text>I would like to book a ticket</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>3F2724A9ED52E587</Id>
+          <Text>i want to go to a concert</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>EDF6BA84E1F49DC2</Id>
+          <Text>i'm planning to see a concert</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>2748F5654916A4A0</Id>
+          <Text>concert</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>47FBA89EAF9AAC72</Id>
+          <Text>ticket</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>EDA306077916BE97</Id>
+          <Text>What is the location you desire currently?
+Kuala lumpur? Selangor? or Pahang?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>C09B2CBDABAD445</Id>
+          <Text>Which location are you intersed in?
+Kuala lumpur? Selangor? or Pahang?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>C3EFEF4AB37BC5B7</Id>
+          <Text>Which event location do you wish to go to?
+Kuala lumpur? Selangor? or Pahang?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>FE301C7144F37072</Id>
+              <Text>KL</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A13E1B9C9243D856</Id>
+              <Text>Kuala Lumpur</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>E29482C83A43804</Id>
+              <Text>The main city huh... Events in that region are :
+Malaysia Super Juniors Award 2019
+
+911 - The Reunion 2019  by Lee Brennan, Spike Dawbarn and Jimmy Constable</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>A61B0FA0FE759840</Id>
+                  <Text>#Artists</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>13ED40DE53D8CD91</Id>
+                  <Text>I have gone and opened the website for you to check further details on the event
+
+The event you chose is #Title performed by #Artists
+It will be held at #Location
+on #Date, #Time
+
+I will go and open the website for you to check further details on the event
+Anything else that i can help with?</Text>
+                  <Condition />
+                  <Cmd>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" #Link</Cmd>
+                </Output>
+              </Outputs>
+              <Children>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>3EF18AB5856332D</Id>
+                      <Text>(yes)</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>7CE0272627830EB</Id>
+                      <Text>&lt;send Help&gt;</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children />
+                  <VirtualParents />
+                  <Id>1B4A5489742542A4</Id>
+                  <Name>yes</Name>
+                </Rule>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>889C63A598363F4A</Id>
+                      <Text>(no)</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>2CE9C22B5AC9314B</Id>
+                      <Text>&lt;send exit&gt;</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children />
+                  <VirtualParents />
+                  <Id>E36F4C7493F8A383</Id>
+                  <Name>no</Name>
+                </Rule>
+              </Children>
+              <VirtualParents />
+              <Id>55B7E381762461ED</Id>
+              <Name>concert</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>D8F070BA105374F</Id>
+          <Name>Kuala Lumpur</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>7BEE8008BFBBDED5</Id>
+              <Text>Pahang</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>BA924C54E857FB1A</Id>
+              <Text>Oh you picked pahang or should i say genting? But there are :</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>AD0FC7774D5984B3</Id>
+                  <Text>#Artists</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>1C3B49E395BA9D31</Id>
+                  <Text>I have gone and opened the website for you to check further details on the event
+
+The event you chose is #Title performed by #Artists
+It will be held at #Location
+on #Date, #Time
+
+I will go and open the website for you to check further details on the event
+Anything else that i can help with?</Text>
+                  <Condition />
+                  <Cmd>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" #Link</Cmd>
+                </Output>
+              </Outputs>
+              <Children>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>7E0997A4DC1B9CA4</Id>
+                      <Text>(yes)</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>1DB596A6D4B9943A</Id>
+                      <Text>&lt;send Help&gt;</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children />
+                  <VirtualParents />
+                  <Id>70C230C8160AB514</Id>
+                  <Name>yes</Name>
+                </Rule>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>CC5039E6764A3939</Id>
+                      <Text>(no)</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>5C03876C944DB8D3</Id>
+                      <Text>&lt;send exit&gt;</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children />
+                  <VirtualParents />
+                  <Id>90E6875AAC339ED4</Id>
+                  <Name>no</Name>
+                </Rule>
+              </Children>
+              <VirtualParents />
+              <Id>8BC46431850C009B</Id>
+              <Name>concert</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>E8BB7DE44034C5ED</Id>
+          <Name>Pahang</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>BB555019BB08AD7B</Id>
+              <Text>Selangor</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>2F807152830C0FF</Id>
+              <Text>Selangor... a nice place so watch your favourite artist. You can go to:
+BOYZONE THANK YOU &amp; GOODBYE FAREWELL TOUR 2019 LIVE by Boyzone
+
+Westlife - THE TWENTY TOUR by Westlife</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>688FCA86B6B3B941</Id>
+                  <Text>#Artists</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>61CFA800B6C443D7</Id>
+                  <Text>I have gone and opened the website for you to check further details on the event
+
+The event you chose is #Title performed by #Artists
+It will be held at #Location
+on #Date, #Time
+
+I will go and open the website for you to check further details on the event
+Anything else that i can help with?</Text>
+                  <Condition />
+                  <Cmd>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" #Link</Cmd>
+                </Output>
+              </Outputs>
+              <Children>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>7F3718B9CA337790</Id>
+                      <Text>(yes)</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>9DDA742EF90758E5</Id>
+                      <Text>&lt;send Help&gt;</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children />
+                  <VirtualParents />
+                  <Id>10FC25E2CDA9984F</Id>
+                  <Name>yes</Name>
+                </Rule>
+                <Rule>
+                  <Inputs>
+                    <Input>
+                      <Id>674663CEF697695E</Id>
+                      <Text>(no)</Text>
+                      <Condition />
+                    </Input>
+                  </Inputs>
+                  <Outputs>
+                    <Output>
+                      <Id>A25EBFCBAE228273</Id>
+                      <Text>&lt;send exit&gt;</Text>
+                      <Condition />
+                      <Cmd />
+                    </Output>
+                  </Outputs>
+                  <Children />
+                  <VirtualParents />
+                  <Id>8EB288785B0FCE1B</Id>
+                  <Name>no</Name>
+                </Rule>
+              </Children>
+              <VirtualParents />
+              <Id>1323A98573F86626</Id>
+              <Name>concert</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>37F351BB66DC92D3</Id>
+          <Name>Selangor</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>DA352B2DB5E12A47</Id>
+              <Text>[input]</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>7926D07B2E5F5AB7</Id>
+              <Text>I'm sorry to tell you that [input] area doesn't have any concert or event in it
+&lt;send yes, where?&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>B13FAA0A609489C9</Id>
+          <Name>None of the Above</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>C1AC85CCDBD74E3</Id>
+      <Name>Concert Please</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>EC5D40A5C5EA4CEC</Id>
+          <Text>(Thanks)</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>182D8AB0250FB58A</Id>
+          <Text>your welcome</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>CDF9B9E7B5F42FEE</Id>
+          <Text>anytime [name] the human</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>E5F3B968C1F28979</Id>
+      <Name>Thanks</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>EEE20406B28EFB3F</Id>
+          <Text>_bored</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>34BDA0142FD2626A</Id>
+          <Text>I'm still here [name], please come back</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>A8DF63C831A216CD</Id>
+              <Text>_bored</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>E7619E3CAB266763</Id>
+              <Text>Why have you leave me [name], I'm lonely</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children>
+            <Rule>
+              <Inputs>
+                <Input>
+                  <Id>865BF22871E6E809</Id>
+                  <Text>_bored</Text>
+                  <Condition />
+                </Input>
+              </Inputs>
+              <Outputs>
+                <Output>
+                  <Id>EE5EE03D95449760</Id>
+                  <Text>&lt;&gt;</Text>
+                  <Condition />
+                  <Cmd />
+                </Output>
+              </Outputs>
+              <Children />
+              <VirtualParents />
+              <Id>EB3AC36065EDCA2F</Id>
+              <Name>_bored</Name>
+            </Rule>
+          </Children>
+          <VirtualParents />
+          <Id>C55D2A8DB158E7B2</Id>
+          <Name>_bored</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>B79E6302F7D58FA7</Id>
+      <Name>_bored</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>5FB5B213EBF5C618</Id>
+          <Text>_blank</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>FBE3EE4ACA837C29</Id>
+          <Text>I am Christine, a Chatterbox specialized in Concert booking and advice, Please feel free to ask me anything about concerts and event. I am happy to help you in this matter.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>10CF1551318C04C1</Id>
+          <Text>...</Text>
+          <Condition />
+          <Cmd>"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" https://www.google.co.id/?gws_rd=cr&amp;ei=QdGGWN7KOoHfvgTS8pLACw</Cmd>
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>595BC46D1B2BA894</Id>
+      <Name>_blank</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3F936CCDF277858C</Id>
+          <Text>(Goodbye)</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>EBC4987ADF7C5D4C</Id>
+          <Text>(Goodbye) [name] the Human</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>93B7B78E35547E17</Id>
+      <Name>Bye</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>AA89EE57F025965B</Id>
+          <Text>notepad</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>62B98572398B9418</Id>
+          <Text>let me take notes</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>9857F11145EDF3FE</Id>
+          <Text>note it</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>A1ECBE0BF7192A71</Id>
+          <Text>I'll open notepad for you</Text>
+          <Condition />
+          <Cmd>notepad</Cmd>
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>545C467253F548AE</Id>
+      <Name>notepad</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>61489EC3AD669D66</Id>
+          <Text>That's not my name</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>AF10E8DE6D802BA4</Id>
+          <Text>not my name</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>5C8950AABBCAE62C</Id>
+          <Text>wrong name</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>848F2E49C3916734</Id>
+          <Text>Then what is your name?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>F13D992A785EA588</Id>
+          <Text>wait a minute... Who are you?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>D89BBFC9EDBB993F</Id>
+          <Text>Who dare speak to Christine?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>3B7703828E9D3F53</Id>
+              <Text>[name]</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9270B9B9782E8AE8</Id>
+              <Text>(I'm) [name]</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F9B531CBCB22AC7A</Id>
+              <Text>my name is [name]</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>6D6020B58CF9D46B</Id>
+              <Text>Well then.. welcome [name] the human</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+            <Output>
+              <Id>3A06FE51273BE726</Id>
+              <Text>Welcome back [name] the name</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>9109A7CEC5D12722</Id>
+          <Name>New Name</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>D41FCBB7B7E4DDF5</Id>
+      <Name>Change name</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>51B09EC242CC05B</Id>
+          <Text>Advice</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>BF16E9742EF30C2C</Id>
+          <Text>tips</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>1F203063799C6297</Id>
+          <Text>hints</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>80529FFA86F836A9</Id>
+          <Text>tip</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>AC2DF55EAC48BA</Id>
+          <Text>hint</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>E32BBFF5E651F96C</Id>
+          <Text>help me</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>2E2DE073F6E405C8</Id>
+          <Text>What would you like me to help you on? Things to bring? ticket? Outfit? Make-up? Timing?
+Meal Plan?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>D436EF634E50E32D</Id>
+              <Text>Bring</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>D94CDA508F521E41</Id>
+              <Text>things</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A50517D410F5548F</Id>
+              <Text>stuff</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>B86B12EFE4E73928</Id>
+              <Text>belongings</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>4ECF9E056A336A41</Id>
+              <Text>Bring needed Water for hydration
+A printed copy of the ticket, just in case
+But make sure to bring as little as you can, so only the essentials
+your phone to take memories of it</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>35C0377240ECA78D</Id>
+          <Name>Bring</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>62FD0F0E5EAA5E01</Id>
+              <Text>dress</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>CD5A1B54A6B05785</Id>
+              <Text>outfit</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>21FE07AE858CA651</Id>
+              <Text>wear</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>866BC8436C8122AC</Id>
+              <Text>clothes</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>11CF1002CC509BA2</Id>
+              <Text>clothing</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>D94A74822AEC62F6</Id>
+              <Text>First thing first. Dont wear a hoodie or jacket, it will be HOT
+Wear comfortably though, it can get sweaty and you could stand for hours
+For Females, do keep your hair up, your hair will likely be pulled, grabbed, and touched by the people in front of you</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>C66A732731DB1AFD</Id>
+          <Name>Outfit</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>9D0F040A1185A17</Id>
+              <Text>Meal</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C7FD4DD643C2084</Id>
+              <Text>eat</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C6D26A05FEB6B6DC</Id>
+              <Text>lunch</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7AE3F20B4B6571D</Id>
+              <Text>Dinner</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>52DD80F7B6033F74</Id>
+              <Text>Do yourself a favor and eat a complete meal before the show
+You'll need lots of energy</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>9AD975EEC29CDD4</Id>
+          <Name>Meal</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>4BA1A9378CAFCCC4</Id>
+              <Text>Ticket</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9940F2A1ED8ADF08</Id>
+              <Text>Tickets</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>387709D1214AE59E</Id>
+              <Text>Paper</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>23789F1CB2D64B4</Id>
+              <Text>pass</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>B26D86C4D0595BFE</Id>
+              <Text>When purchasing a ticket buy itas far advance as possible, who knows when it will sold out
+Just in case, you could print out the ticket.
+NEVER assume you could buy ticket at the door. no panic, no hassle</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>19CA69608E5376A3</Id>
+          <Name>Ticket</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>6E4350A5DFF84D4</Id>
+              <Text>Make-up</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7B8E4163EA55BDFB</Id>
+              <Text>Beauty</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>4BC484D29F29A631</Id>
+              <Text>Just Please... wear the waterproof kind
+you will sweat. S W E A T</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>D68C2E31B2434C89</Id>
+          <Name>Make-up</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>421608715636A25A</Id>
+              <Text>when</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>BB7166EE643E3342</Id>
+              <Text>time</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>DB0C449BB09174F3</Id>
+              <Text>timing</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>51B88C479A9B5FE4</Id>
+              <Text>If you plan on being front row, show up a few hours early to sit outside the venue.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>BF050EC2D1B75803</Id>
+          <Name>timing</Name>
+        </Rule>
+      </Children>
+      <VirtualParents>
+        <VirtualParent>FC6206B2A0EBF528</VirtualParent>
+      </VirtualParents>
+      <Id>5F88B1FDFB5A1B</Id>
+      <Name>basic Advice</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>19F3BE0051327D74</Id>
+          <Text>Time</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>2DFAC0597596E751</Id>
+          <Text>_time</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>D21D255E4B77E594</Id>
+      <Name>Time</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>AC30F59B5E972F</Id>
+          <Text>What did i say</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>C187CADFA65A1A31</Id>
+          <Text>what i said</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>73E675CD3E44FF5F</Id>
+          <Text>you said "[_lastinput]"</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>CFA6CF569FB04F42</Id>
+      <Name>What did i say</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>C778393BEC57FF8D</Id>
+          <Text>what did you say</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>6BBD698443C8F343</Id>
+          <Text>what was that?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>5700E69DD3B8E4CE</Id>
+          <Text>huh</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>5E5AA0022CCDD79C</Id>
+          <Text>what</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>2C83962DE9DBDA36</Id>
+          <Text>i didn't catch that</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>53E8914755E02D05</Id>
+          <Text>say again</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>4B216E63559C6934</Id>
+          <Text>say that again</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>E29EBC3EF59E0529</Id>
+          <Text>I said [_lastoutput]</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>ACD689B7E96088C</Id>
+      <Name>what did you say</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>9FC78D81F50C7AB0</Id>
+          <Text>What is the date today</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>D8995D26C946CC4F</Id>
+          <Text>today?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>6AAA93E3F83862A2</Id>
+          <Text>Date</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>7278A2954B926A63</Id>
+          <Text>today</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>CFD432A6A7F2AD22</Id>
+          <Text>Today is [_date], [_dayofweek]</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>2930C55884D221D7</Id>
+      <Name>Date</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>51FE4486ADAF24C2</Id>
+          <Text>Help</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>5A0639359FD732B4</Id>
+          <Text>give me a hand</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>13DE7884F91EDA45</Id>
+          <Text>second</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>A4575689A88511FF</Id>
+          <Text>I can help you on booking a concert or giving you an advice on concert</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>3FB951ABEFBBA01A</Id>
+          <Text>Maybe i can help by booking a concert or giving you an advice or two</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>4030DB42E3A71A5A</Id>
+              <Text>concert</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>42E368627FB60A18</Id>
+              <Text>event</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>4EF852DD3989443</Id>
+              <Text>first</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>DB8A6B68E05D40BC</Id>
+              <Text>&lt;send yes, where?&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>8AC33655B9A8A49C</Id>
+          <Name>help concert</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>96F654378D7A87A3</Id>
+              <Text>advice</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>4DE75AB0CC43C0DF</Id>
+              <Text>tips</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>DDB4194A94CE34B6</Id>
+              <Text>hint</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>915F9D1D957891E2</Id>
+              <Text>&lt;send basic Advice&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents />
+          <Id>2E4A083A955E4DE</Id>
+          <Name>help advice</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>54FFA34EB52D6E17</Id>
+      <Name>Help</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B74948A3C0063B3</Id>
+          <Text>exit</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>822342BBEBC579D</Id>
+          <Text>close</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>343E20115864991E</Id>
+          <Text>(goodbye)</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>3A5E969E212EC807</Id>
+          <Text>Thank you for using me Christina
+&lt;exit&gt;</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>75AA53CB29584509</Id>
+      <Name>exit</Name>
+    </Rule>
+  </Rules>
+  <ResourceFiles>
+    <ResourceFile>
+      <Filename>Default.vrp</Filename>
+      <Filetype>ReplacementProfileFile</Filetype>
+    </ResourceFile>
+    <ResourceFile>
+      <Filename>Default.vsn</Filename>
+      <Filetype>SynonymFile</Filetype>
+    </ResourceFile>
+    <ResourceFile>
+      <Filename>Database.csv</Filename>
+      <Filetype>TemplateDataFile</Filetype>
+    </ResourceFile>
+    <ResourceFile>
+      <Filename>Coding.vcm</Filename>
+      <Filetype>CodeModuleFile</Filetype>
+    </ResourceFile>
+  </ResourceFiles>
+  <Info>
+    <Author />
+    <Copyright />
+    <License />
+    <AuthorWebsite />
+    <CreationDate>2019-04-26T00:52:06.8116278+08:00</CreationDate>
+    <LastUpdateDate>2019-05-26T18:55:03.0960536+08:00</LastUpdateDate>
+    <Rating>
+      <Rating>Unknown</Rating>
+      <Language>false</Language>
+      <Sexual>false</Sexual>
+      <Violence>false</Violence>
+      <Other>false</Other>
+      <Description />
+    </Rating>
+    <Category>Other</Category>
+    <Language>English</Language>
+    <Comment>Describe your KnowledgeBase here</Comment>
+  </Info>
+  <Version>1.0</Version>
+  <Build>72</Build>
+</KnowledgeBase>
